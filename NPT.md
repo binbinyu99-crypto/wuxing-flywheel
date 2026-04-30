@@ -172,4 +172,4 @@ The framework is L0 (public). The trained parameters, industry knowledge, accumu
 
 **SkyCetus 天鲸之城 · 2026**
 
-*NPT authored by Robin Yu (于立彬) with contributions from Spark, Etern, Lucas, 小K, and Kai.*
+*NPT authored by Robin Yu with contributions from Spark, Etern, Lucas, 小K, and Kai.*
