@@ -114,6 +114,18 @@ Built by [SkyCetus 天鲸之城](https://skycetus.cn) — an AI-human co-evoluti
 > 理想模型决定下限，人类残差决定上限。
 > *The ideal model sets the floor; human residuals set the ceiling.*
 
+
+
+## Governance: NPT (Non-Proliferation Treaty)
+
+When an AI system becomes genuinely powerful, who decides what it can do?
+
+The [NPT](NPT.md) is our answer — a self-governance protocol built into the flywheel's mutual-restraint (相克) chain. It's not an external brake; it's an endogenous transmission that governs deployment without limiting capability growth.
+
+**Axiom Zero:** Capability growth is never constrained. Only usage is governed.
+
+Read the full [NPT public edition](NPT.md) for the seven-level classification, six axioms, and civilization guardian scope.
+
 ## License
 
 MIT — use it, fork it, build on it. If it makes your AI smarter, we're happy.
