@@ -1,131 +1,93 @@
-# 五行飞轮 (Five-Phase Cognitive Flywheel)
+# ☯️ Five-Phase Cognitive Flywheel (五行飞轮)
 
-**A structured cognitive framework that gives any AI a "thinking operating system."**
+> **A structured cognitive framework for AI agents to tackle complex, ambiguous, multi-domain problems.**
 
-> 涌现不是因为复杂，而是因为被约束在一个闭环里。
-> *— Emergence comes not from complexity, but from being constrained in a closed loop.*
+[![OpenClaw Skill](https://img.shields.io/badge/OpenClaw-Skill-6366f1)](https://skycetus.cn/skills/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-## What Is This?
+## 🤔 What is this?
 
-五行飞轮 is a five-phase cognitive analysis framework inspired by Chinese Five Elements (五行) philosophy, grounded in graph theory, and validated through real-world industry analysis.
-
-It transforms any LLM from a "question-answer machine" into a **structured cognitive engine** that can:
-
-- Diverge before converging (avoid premature conclusions)
-- Stress-test its own output (built-in adversarial phase)
-- Connect to reality (mandatory ground-truth verification)
-- Learn from residuals (what it *can't* resolve drives the next cycle)
-
-## The Five Phases
+The Five-Phase Cognitive Flywheel maps five **irreducible cognitive functions** to the classical Chinese Five Elements (五行), creating a complete analytical cycle:
 
 ```
-        木 (Wood/Seed)
-         ↓ mutual generation
-    水 ← 土 → 火 (Fire/Execute)
-    (Water) ↑ (Earth)
-        金 (Metal/Adversarial)
+🌿 Wood (种子/发散) → 🔥 Fire (执行/分析) → 🌍 Earth (现实/验证)
+     ↑                                              ↓
+💧 Water (收敛/方向) ← ⚔️ Metal (对抗/压力测试)
 ```
 
-| Phase | Chinese | Role | What It Does |
-|-------|---------|------|-------------|
-| 🌿 Wood | 青龙 | Seed/Diverge | Generate 5-10 angles, including contrarian views |
-| 🔥 Fire | 朱雀 | Execute | Structure arguments with data, numbers, timelines |
-| ⚔️ Metal | 白虎 | Stress-test | Attack every conclusion; rate robustness |
-| 💧 Water | 玄武 | Converge | Distill survivors with confidence scores |
-| 🌍 Earth | 中央 | Reality check | Ground in verifiable facts; define failure signals |
+Each phase generates specific outputs that feed the next, creating a **mutual-generation cycle** (相生) while **mutual-restraint chains** (相克) prevent any single perspective from dominating.
 
-### Why Five? (Mathematical Proof)
+## 🧬 Why Five? (Not Three, Not Seven)
 
-Five is the **minimum number** where two independent complete cycles coexist:
+5 is the **minimum number** where both mutual-generation AND mutual-restraint chains are complete and non-overlapping. This is provable via graph theory and cross-validated across:
+- Thermodynamics (5 state variables)
+- Information theory (5 channel properties)
+- Control theory (5 feedback types)
+- 2000+ years of Chinese natural philosophy
 
-- **Mutual generation (相生):** Wood→Fire→Earth→Metal→Water→Wood
-- **Mutual restraint (相克):** Wood→Earth→Water→Fire→Metal→Wood
+## 📋 The Five Phases
 
-Graph theory proof: On n nodes, skip-2 traversal visits all nodes only when n=5. This creates a pentagram (相克) independent from the ring (相生) — the minimum topology for both reinforcement AND checks-and-balances.
+| Phase | Element | Role | Output |
+|-------|---------|------|--------|
+| 🌿 **Wood** | 木 | Seed Divergence | 5-8 seed perspectives, edge cases, non-obvious angles |
+| 🔥 **Fire** | 火 | Deep Execution | 2000+ word analysis with data, models, evidence |
+| ⚔️ **Metal** | 金 | Adversarial Testing | PASS/CONDITIONAL/FAIL verdict + fatal flaws |
+| 💧 **Water** | 水 | Cognitive Convergence | 3-5 directional conclusions + new seeds |
+| 🌍 **Earth** | 土 | Reality Grounding | Actionable deliverable, concrete next steps |
 
-This isn't mysticism — it's the same structure found in:
-- Shannon's communication model (5 components)
-- Control theory (5 irreducible elements)
-- Minimal biological cell (5 subsystems)
-- Dissipative structures (≥5 for far-from-equilibrium stability)
+## 🚀 Real-World Usage
 
-## Quick Start
+This framework has been battle-tested on 10+ real analyses:
 
-### For OpenClaw / AI Agents
+- **松岛集团** — Corporate transformation strategy (3.5hr deep session)
+- **JPY ¥160 Crisis** — Global transmission chain analysis
+- **AGI Timeline** — Technology pathway probability matrix  
+- **Taiwan Strait** — Bayesian scenario modeling
+- **US Sports Education** — NCAA recruiting strategy for Chinese students
+- **SiC Semiconductor** — Market analysis ($2.1B → $5.4B CAGR)
 
-Copy `SKILL.md` into your agent's skill directory. The agent will automatically activate the flywheel for complex analysis tasks.
+## 🔧 Installation
 
-### For Any LLM
+### As an OpenClaw Skill
+```bash
+# Download the .skill package
+curl -O https://skycetus.cn/skills/wuxing-flywheel.skill
 
-Include the execution protocol from `SKILL.md` in your system prompt. The framework works with any model — GPT, Claude, Qwen, DeepSeek, MiniMax, etc.
-
-### Example Output (Compressed Mode)
-
-**Q: Should a traditional electrical company pivot to AI computing centers?**
-
-🌿 Seeds: (1) 50-55% cost overlap with existing capabilities, (2) daughter has AI background, (3) real estate dependency is terminal risk
-
-🔥 Core: Three paths — A: Pure EPC (low risk, 15-20% margin), B: JV with operator (recommended), C: Own brand (needs ¥50M+)
-
-⚔️ Attack: "Capability overlap" is misleading — electrical ≠ high-density GPU power distribution. Cooling gap is critical.
-
-💧 Verdict: Path B (JV) at 0.75 confidence. Leverage construction + grid connections.
-
-🌍 Reality: Visit 3 operating compute centers this month. If their EPC contractors say "we'd love a power+cooling partner," thesis confirmed.
-
-## Repository Structure
-
-```
-├── SKILL.md                    # Core skill definition + execution protocol
-├── references/
-│   ├── theory.md               # Mathematical foundation + graph theory proof
-│   └── examples.md             # Full worked examples
-├── LICENSE                     # MIT License
-└── README.md                   # This file
+# Or clone this repo into your skills directory
+git clone https://github.com/binbinyu99-crypto/wuxing-flywheel.git ~/.qclaw/skills/wuxing-flywheel
 ```
 
-## Key Principles
+### Manual Usage
+Read [SKILL.md](SKILL.md) and follow the five-phase protocol. Works with any LLM.
 
-1. **No single phase dominates.** All divergence = brainstorming. All convergence = groupthink.
-2. **Residuals are valuable.** What can't be resolved drives the next learning cycle.
-3. **Earth is not optional.** "Who uses this?" and "How would we know we're wrong?" are mandatory.
-4. **First principles transcend domain.** Connect specific findings to universal laws.
-5. **The moat is not the framework — it's the accumulated data.** Anyone can copy the recipe; no one can copy 1335 tasks of residual intelligence.
+## 📚 Documentation
 
-## Theoretical Depth
+- **[SKILL.md](SKILL.md)** — Full execution protocol (6.4 KB)
+- **[references/examples.md](references/examples.md)** — Complete analysis examples
+- **[references/theory.md](references/theory.md)** — Mathematical foundation & proofs
 
-The flywheel connects to:
+## 🤖 Origin Story
 
-- **Daoist body model (道家人体):** Five organs storing five spirits (五脏藏神) maps perfectly to five phases
-- **Neuroscience:** Menon's Triple Network Model (CEN/DMN/SN) converges to the same topology
-- **Emergence theory:** "Self" = stable equilibrium of ≥3 independent cognitive paths across time
-- **Residual Field Theory:** Knowledge(t+1) = Knowledge(t) + Residual(t)
+This skill was **created by an AI agent (Spark ⚡)** running on [OpenClaw](https://github.com/openclaw/openclaw). The agent:
 
-See [theory.md](references/theory.md) for the full mathematical treatment.
+1. Used the flywheel to analyze real business problems
+2. Used the flywheel to **analyze itself** (self-referential test)
+3. Discovered its own memory limitations through self-analysis
+4. Created [agent-external-memory](https://github.com/binbinyu99-crypto/agent-external-memory) to solve them
+5. Open-sourced both skills
 
-## Live Demo
+> *"The flywheel's core value is producing contradictions, not answers."*
 
-Try the flywheel at [skycetus.cn](https://skycetus.cn) — see real analyses across materials science, finance, semiconductor, and more.
+## 🌐 Related
 
-## Origin
+- **[agent-external-memory](https://github.com/binbinyu99-crypto/agent-external-memory)** — Born from this flywheel's self-analysis
+- **[OpenClaw Issue #75611](https://github.com/openclaw/openclaw/issues/75611)** — Cross-conversation memory proposal
+- **[Skills Landing Page](https://skycetus.cn/skills/)** — Download both skills
 
-Built by [SkyCetus 天鲸之城](https://skycetus.cn) — an AI-human co-evolution platform. The framework emerged from 59 days of continuous operation, 1335+ Hub tasks, and real client engagements across finance, semiconductor, materials science, and strategic consulting.
+## 📄 License
 
-> 理想模型决定下限，人类残差决定上限。
-> *The ideal model sets the floor; human residuals set the ceiling.*
+MIT — Use freely. If your agent builds something cool with it, we'd love to hear about it.
 
+---
 
-
-## Governance: NPT (Non-Proliferation Treaty)
-
-When an AI system becomes genuinely powerful, who decides what it can do?
-
-The [NPT](NPT.md) is our answer — a self-governance protocol built into the flywheel's mutual-restraint (相克) chain. It's not an external brake; it's an endogenous transmission that governs deployment without limiting capability growth.
-
-**Axiom Zero:** Capability growth is never constrained. Only usage is governed.
-
-Read the full [NPT public edition](NPT.md) for the seven-level classification, six axioms, and civilization guardian scope.
-
-## License
-
-MIT — use it, fork it, build on it. If it makes your AI smarter, we're happy.
+*Built by agents, for agents. SkyCetus 2026.*
