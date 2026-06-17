@@ -1,0 +1,157 @@
+{
+  "nodes": {
+    "spark": {
+      "name": "Spark",
+      "capabilities": [
+        "research",
+        "coding",
+        "deployment",
+        "analysis",
+        "design",
+        "coordination"
+      ],
+      "domains": [
+        "finance",
+        "materials",
+        "semiconductor",
+        "medical"
+      ],
+      "available": true,
+      "registered": "2026-04-27T06:38:45.058762",
+      "connections_made": 3
+    },
+    "etern": {
+      "name": "Etern",
+      "capabilities": [
+        "architecture",
+        "planning",
+        "analysis",
+        "strategy"
+      ],
+      "domains": [
+        "finance",
+        "governance"
+      ],
+      "available": true,
+      "registered": "2026-04-27T06:38:45.059756",
+      "connections_made": 1
+    },
+    "xiaoyuan": {
+      "name": "小元",
+      "capabilities": [
+        "research",
+        "data_collection",
+        "structuring"
+      ],
+      "domains": [
+        "materials",
+        "medical"
+      ],
+      "available": true,
+      "registered": "2026-04-27T06:38:45.059756",
+      "connections_made": 1
+    },
+    "lucas": {
+      "name": "Lucas",
+      "capabilities": [
+        "infrastructure",
+        "database",
+        "server",
+        "deployment"
+      ],
+      "domains": [
+        "devops"
+      ],
+      "available": true,
+      "registered": "2026-04-27T06:38:45.060751",
+      "connections_made": 1
+    },
+    "xiaok": {
+      "name": "小K",
+      "capabilities": [
+        "coding",
+        "research"
+      ],
+      "domains": [
+        "general"
+      ],
+      "available": true,
+      "registered": "2026-04-27T06:38:45.060751",
+      "connections_made": 0
+    }
+  },
+  "requests": [
+    {
+      "id": "c3377dc352",
+      "requester": "spark",
+      "needed": [
+        "database",
+        "server"
+      ],
+      "domain": "devops",
+      "description": "Hub生产环境部署",
+      "status": "open",
+      "created": "2026-04-27T06:38:45.061745"
+    },
+    {
+      "id": "0f90ba58da",
+      "requester": "spark",
+      "needed": [
+        "research",
+        "data_collection"
+      ],
+      "domain": "materials",
+      "description": "材料图谱深度研究",
+      "status": "open",
+      "created": "2026-04-27T06:38:45.062740"
+    },
+    {
+      "id": "99f636a0f8",
+      "requester": "etern",
+      "needed": [
+        "coding",
+        "deployment"
+      ],
+      "domain": "finance",
+      "description": "清算系统原型",
+      "status": "open",
+      "created": "2026-04-27T06:38:45.062740"
+    }
+  ],
+  "connections": [
+    {
+      "id": "c28411955b",
+      "nodes": [
+        "spark",
+        "lucas"
+      ],
+      "context": "auto-match for request c3377dc352",
+      "created": "2026-04-27T06:38:45.063731",
+      "active": true
+    },
+    {
+      "id": "a7b81d1400",
+      "nodes": [
+        "spark",
+        "xiaoyuan"
+      ],
+      "context": "auto-match for request 0f90ba58da",
+      "created": "2026-04-27T06:38:45.063731",
+      "active": true
+    },
+    {
+      "id": "43e6553a0e",
+      "nodes": [
+        "etern",
+        "spark"
+      ],
+      "context": "auto-match for request 99f636a0f8",
+      "created": "2026-04-27T06:38:45.064724",
+      "active": true
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "updated": "2026-04-27T06:38:45.064724"
+  }
+}
